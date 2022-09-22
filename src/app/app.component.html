@@ -1,10 +1,7 @@
 <h1 class="mt-5 text-warning text-center">Api Call</h1>
-<button
-            class="btn btn-lg btn-outline-primary"
-            (click)="open(content)"
-          >
-            Edit
-          </button>
+<button class="btn btn-lg btn-outline-primary" (click)="open(content)">
+  Edit
+</button>
 <div class="d-flex flex-wrap justify-content-center m-5 p-5">
   <div class="card m-3" style="width: 18rem" *ngFor="let user of users">
     <img
@@ -36,7 +33,9 @@
           </button> -->
         </div>
         <div>
-          <button type="button" class="btn btn-lg btn-outline-primary">Delete</button>
+          <button type="button" class="btn btn-lg btn-outline-primary">
+            Delete
+          </button>
         </div>
       </div>
     </div>
@@ -59,9 +58,7 @@
       <div class="mb-3">
         <form [formGroup]="updateForm">
           <div class="mb-3 form-group">
-            <label
-              for="exampleInputEmail1"
-              class="form-label"
+            <label for="exampleInputEmail1" class="form-label"
               >card title</label
             >
             <!-- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="title"
@@ -83,9 +80,7 @@
             >Please enter title</span
           > -->
           <div class="mb-3">
-            <label
-              for="exampleInputPassword1"
-              class="form-label"
+            <label for="exampleInputPassword1" class="form-label"
               >card body</label
             >
             <input
@@ -191,9 +186,5 @@
     </div>
   </div>
 </div>
-<div>
-
-</div>
-<div class="card m-3" style="width: 18rem" >
-
-</div>
+<div></div>
+<div class="card m-3" style="width: 18rem"></div>

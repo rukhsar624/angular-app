@@ -35,8 +35,6 @@ export class UserServiceService {
       }
     })
   }
-
-
   get(link:any){
     let header = {
       'Content-Type': 'application/json',
