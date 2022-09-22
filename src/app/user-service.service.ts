@@ -40,7 +40,6 @@ export class UserServiceService {
       'Content-Type': 'application/json',
       'Accept': 'application/json'
     }
-
     return new Promise((res, rej)=>{
       this.http.get(this.url + link, { headers: header} )
       .subscribe((data:any)=>{
